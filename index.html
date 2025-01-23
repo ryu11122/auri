@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auri</title>
+
+    
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <link rel="icon" href="img/favicon.ico">
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href=""><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="">소개</a>
+                        <div>
+                            <ul>
+                                <li><a href="">auri는</a></li>
+                                <li><a href="">원장실</a></li>
+                                <li><a href="">조직도</a></li>
+                                <li><a href="">홍보관</a></li>
+                                <li><a href="">찾아오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">연구 분야</a>
+                        <div>
+                            <ul>
+                                <li><a href="연구사업개요"></a></li>
+                                <li><a href="">건축연구</a></li>
+                                <li><a href="">지속가능공간연구</a></li>
+                                <li><a href="">공간문화연구</a></li>
+                                <li><a href="">주거문화연구</a></li>
+                                <li><a href="">빅데이터연구</a></li>
+                                <li><a href="">건축공간법제연구</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">발간물</a>
+                        <div>
+                            <ul>
+                                <li><a href="">연구보고서</a></li>
+                                <li><a href="">auri brief</a></li>
+                                <li><a href="">한옥정책브리프</a></li>
+                                <li><a href="">건축도시정책동향</a></li>
+                                <li><a href="">건축과 도시공간</a></li>
+                                <li><a href="">단행본</a></li>
+                                <li><a href="">인포그래픽스</a></li>
+                                <li><a href="">건축공간법제연구</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">소식</a>
+                        <div>
+                            <ul>
+                                <li><a href="">auri 소식</a></li>
+                                <li><a href="">뉴스레터</a></li>
+                                <li><a href="">채용안내 및 인재상</a></li>
+                                <li><a href="">세미나/포럼</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">정보공개</a>
+                        <div>
+                            <ul>
+                                <li><a href="">정보공개</a></li>
+                                <li><a href="">공공데이터 개방</a></li>
+                                <li><a href="">경영공시</a></li>
+                                <li><a href="">윤리경영</a></li>
+                                <li><a href="">인권경영</a></li>
+                                <li><a href="">해외출장보고서</a></li>
+                                <li><a href="">고객소리함(Q&A)</a></li>
+                                <li><a href="">연구제안</a></li>
+                                <li><a href="">신고센터</a></li>
+                                <li><a href="">사업실명제</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <div class="lang">
+                    <a href="">KO</a>
+                    <a href="">EN</a>
+                </div>
+                <div class="ham">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-hiddenmenu"></div>
+    </header>
+    <main>
+        <div class="main1">
+            <div class="section">
+                <div class="research">
+                    <p><b>건축 · 도시공간</b>의 미래를<br>
+                        만들어가는 <b>정책연구 싱크탱크</b></p>
+                    <form action="research">
+                        <div class="researchbox">
+                            <input type="text" title="통합검색 입력" placeholder="검색어를 입력해주세요">
+                            <button type="submit">
+                                <i class="xi-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </form>
+                    <div class="recom">
+                        <h3>추천</h3>
+                        <div>
+                            <a href="">#공공건축</a>
+                            <a href="">#건축</a>
+                            <a href="">#공간</a>
+                            <a href="">#경관</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swip">
+                    <h2>발간물</h2>
+                    <div class="swip-con">
+                        <button class="swiper-button-prev">
+                            <i class="xi-angle-left-min"></i>
+                        </button>
+                        <button class="swiper-button-next">
+                            <i class="xi-angle-right-min"></i>
+                        </button>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>auri brief</p>
+                                        <strong>
+                                            건축사의 현장조사검사 및 확인<br> 업무대행 제도 현안과 개선 방향
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>auri brief</p>
+                                        <strong>
+                                            국내 임시주거시설의 지정 현황 및<br>개선 방향
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>auri brief</p>
+                                        <strong>
+                                            탄소중립 실현을 위한 한옥의 기능<br>현황과 제언 - 온실가스 배출..
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>auri brief</p>
+                                        <strong>
+                                            우리나라 빈 건출물은 얼마나 될까? -<br>행정데이터 기반 빈 건축물..
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>auri brief</p>
+                                        <strong>
+                                            지자체 경관심의 운영 현황과 개선<br>제안
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>건축과 도시공간</p>
+                                        <strong>
+                                            급변하는 기후위기 시대,<br>탄소중립도시로 향하는 길
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>auri brief</p>
+                                        <strong>
+                                            농총특화지구의 합리적 지정을 위한<br>입지적정성 검토기준 활용방...
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>auri brief</p>
+                                        <strong>
+                                            지속 가능한 어촌어항재생을 위한<br>새로운 시도와 과제 - 어촌활력..
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>auri brief</p>
+                                        <strong>
+                                            모빌리티 기술을 접목한 공공건출물<br>리뉴얼 전략
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>건축과 도시공간</p>
+                                        <strong>
+                                            국가공공건축지원센터, 지난10년의<br>변화와 성과
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>auri brief</p>
+                                        <strong>
+                                            보행자 안전을 위한 지하주차장 출입구<br>개선 방안
+                                        </strong>
+                                    </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div><a href="">
+                                        <p>auri brief</p>
+                                        <strong>
+                                            외국인 밀집지역 거주민들의 공간 이용<br>행태 및 범죄 피해 두려..
+                                        </strong>
+                                    </a></div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main2">
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="icon">
+                            <img src="img/quick_icon01.svg" alt="">
+                        </i>
+                        <p>뉴스레터</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="icon">
+                            <img src="img/quick_icon02.svg" alt="">
+                        </i>
+                        <p>자료구입안내</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="icon">
+                            <img src="img/quick_icon03.svg" alt="">
+                        </i>
+                        <p>세미나/포럼</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="icon">
+                            <img src="img/quick_icon04.svg" alt="">
+                        </i>
+                        <p>연구제안</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="icon">
+                            <img src="img/quick_icon05.svg" alt="">
+                        </i>
+                        <p>채용안내</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="icon">
+                            <img src="img/quick_icon06.svg" alt="">
+                        </i>
+                        <p>고객소리함</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main3">
+            <h2><span>AURI</span> HIGHLIGHT</h2>
+            <div class="main3-menu">
+                <div class="main3-report main3-box">
+                    <h2>연구보고서</h2>
+                    <ul>
+                        <li>
+                            <a href=""><img src="img/172785950290500.jpg" alt=""></a>
+                            <div>
+                                <strong><a href="">‘지역 Space-MBTI’를 활용한 인구감소지역 특성 진단 연구</a></strong>
+                                <div>
+                                    <p>기본연구보고서</p>
+                                    <p>2024.10.02</p>
+                                    <p>박성남</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/172785953409200.jpg" alt="">
+                            </a>
+                            <div>
+                                <strong><a href="">지방자치단체 공공시설 운영현황 공개제도의 쟁점 진단 및 개선방안</a></strong>
+                                <div>
+                                    <p>수시연구보고서</p>
+                                    <p>2024.10.02</p>
+                                    <p>김준래</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="">더보기
+                        <i class="xi-plus-thin"></i>
+                    </a>
+                </div>
+                <div class="main3-TV main3-box">
+                    <h2>AURI TV</h2>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="img/173249498559900.jpeg" alt="">
+                            </a>
+                            <div>
+                                <strong><a href="">[공간공감] 복수주거생활로 되찾은 지방의 가치</a> </strong>
+                                <div>
+                                    <p>발행일 2024.11.25</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/173249501789700.jpg" alt="">
+                            </a>
+                            <div>
+                                <strong><a href="">지방자치단체 공공시설 운영현황 공개제도의 쟁점 진단 및 개선방안</a></strong>
+                                <div>
+                                    <p>[공간공감] 잊혀진 역사를 되찾는 새로운 시도 K-공유유산</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="">더보기
+                        <i class="xi-plus-thin"></i>
+                    </a>
+                </div>
+                <div class="main3-card main3-box">
+                    <h2>카드뉴스</h2>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="img/173389036307300.jpg" alt="">
+                            </a>
+                            <div>
+                                <strong><a href="">생애주기를 고려한 공작물 관리체계 마련 연구</a> </strong>
+                                <div>
+                                    <p>발행일 2024.12.11</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/173259919609400.jpg" alt="">
+                            </a>
+                            <div>
+                                <strong><a href="">지역건축안전센터의 실효성 제고를 위한 제도개선 연구</a> </strong>
+                                <div>
+                                    <p>발행일 2024.11.26</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="">더보기
+                        <i class="xi-plus-thin"></i>
+                    </a>
+                </div>
+                <div class="main3-build main3-box">
+                    <h2>건축과 도시공간</h2>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="img/172915159323200.jpg" alt="">
+                            </a>
+                            <div>
+                                <strong><a href="">급변하는 기후위기 시대, 탄소중립도시로 향하는 길</a> </strong>
+                                <div>
+                                    <p>Vol.55 Autumn 2024</p>
+                                    <p>발행일 2024.10.17</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/172100541288800.jpg" alt="">
+                            </a>
+                            <div>
+                                <strong><a href="">국가공공건축지원센터, 지난 10년의 변화와 성과</a> </strong>
+                                <div>
+                                    <p>Vol.54 Summer 2024</p>
+                                    <p>발행일 2024.07.15</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="">더보기
+                        <i class="xi-plus-thin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main4">
+            <h2><span>AURI</span> NEWS</h2>
+            <div class="con-box">
+                <div class="swiper-button-prev">
+                    <i class="xi-angle-left-min"></i>
+                </div>
+                <div class="swiper-button-next"><i class="xi-angle-right-min"></i></div>
+            </div>
+            <div class="swiper2 mySwiper2">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="">
+                            <p>언론기사</p>
+                            <strong>군산시민문화회관 개관식<br>성황리에 마쳐(2024.12.10</strong>
+                            <p>2024.12.10</p>
+                        </a></div>
+                    <div class="swiper-slide"><a href="">
+                            <p>언론기사</p>
+                            <strong>경상북도의회, 「경상북도<br>역사문화 지속가능발전</strong>
+                            <p>2024.12.13</p>
+                        </a></div>
+                    <div class="swiper-slide"><a href="">
+                            <p>보도자료</p>
+                            <strong>"세종형 늘봄학교,<br>국책연구기관과 세종시교육청이</strong>
+                            <p>2024.12.12</p>
+                        </a></div>
+                    <div class="swiper-slide"><a href="">
+                            <p>언론기사</p>
+                            <strong>AURI, 세종시교육청과 세종형<br>늘봄학교 위한 업무협약 체결</strong>
+                            <p>2024.12.12</p>
+                        </a></div>
+                    <div class="swiper-slide"><a href="">
+                            <p>공지사항</p>
+                            <strong>「K-DeepTech Town<br>실내공간 조성을 위한 지명제안</strong>
+                            <p>2024.12.12</p>
+                        </a></div>
+                    <div class="swiper-slide"><a href="">
+                            <p>보도자료</p>
+                            <strong>"공공건축의 품격을 높이다"<br>2024 대한민국 공공건축상</strong>
+                            <p>2024.12.11</p>
+                        </a></div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="main5">
+            <div class="main5-left main5-box">
+                <a href="">
+                    <strong>찾아오시는길</strong>
+                    <p>건축공간연구원의<br>
+                        찾아오시는 길 안내입니다.</p>
+                    <i></i>
+                </a>
+            </div>
+            <div class="main5-mid main5-box">
+                <a href="">
+                    <strong>클린신고센터</strong>
+                    <p>건축공간연구원에서는<br>
+                        클린신고센터를 운영합니다.</p>
+                    <i></i>
+                </a>
+            </div>
+            <div class="main5-right">
+                <h2>팝업존</h2>
+
+                <div class="swiper mySwiper3">
+                    <div class="swiper-pagination ww"></div>
+                    <div class="main5-btnbox ww">
+                        <div class="swiper-button-prev1">
+                            <i class="xi-angle-left-thin wh"></i>
+                        </div>
+                        <div class="swiper-button-next1">
+                            <i class="xi-angle-right-thin wh"></i>
+                        </div>
+                    </div>
+                    <div class="main5-stpa ww">
+                        <i class="xi-play start"></i>
+                        <i class="xi-pause stop"></i>
+                    </div>
+
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide t1"></div>
+                        <div class="swiper-slide t2"></div>
+                        <div class="swiper-slide t3"></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="main6">
+            <ul>
+                <li>
+                    <a href="">
+                        <i>
+                            <img src="img/banner01.png" alt="">
+                        </i>
+                        국가공공건축지원센터
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i>
+                            <img src="img/banner02.png" alt="">
+                        </i>
+                        국가한옥센터
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i>
+                            <img src="img/banner03.png" alt="">
+                        </i>
+                        건축·도시정책정보센터
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i>
+                            <img src="img/banner04.png" alt="">
+                        </i>
+                        건축규제혁신센터
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i>
+                            <img src="img/banner05.png" alt="">
+                        </i>
+                        건축문화자산센터
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <ul>
+                    <li>
+                        <a href="">개인정보 처리방침</a>
+                    </li>
+                    <li>
+                        <a href="">저작권정책</a>
+                    </li>
+                    <li>
+                        <a href="">이메일무단수집거부</a>
+                    </li>
+                    <li>
+                        <a href="">웹접근성고지</a>
+                    </li>
+                    <li>
+                        <a href="">인트라넷</a>
+                    </li>
+                    <li>
+                        <a href="">전자도서관</a>
+                    </li>
+                    <li>
+                        <a href="">주요 업무 담당자</a>
+                    </li>
+                </ul>
+                <div>
+                    <button>관련사이트</button>
+                    <ul>
+                        <li>
+                            <a href="">경제·인문사회연구회</a>
+                        </li>
+                        <li>
+                            <a href="">NKIS국가정책연구포털</a>
+                        </li>
+                        <li>
+                            <a href="">정부24</a>
+                        </li>
+                        <li>
+                            <a href="">AURIC</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="">
+                <img src="img/logo.png" alt="">
+            </a>
+            <div class="footer-mid">
+                <p>30116, 세종특별자치시 가름로 143, KT&G세종타워B 8층 건축공간연구원</p>
+                <p>대표전화: 044-417-9600</p>
+                <p>FAX: 044-417-9604</p>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright ⓒ Architecture & Urban Research Institute. All rights reserved.</p>
+                <div>
+                    <a href=""><img src="img/mark.png" alt=""></a>
+
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="xi-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="xi-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="xi-youtube-play"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="test">
+                                <img src="img/navertvlogo2.png" alt="" class="test2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="test3">
+                                <img src="img/Untitled-3.png" alt="" class="test4">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        AOS.init({
+            duration: "1100"
+        });
+        skrollr.init()
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            grid: {
+                rows: 4,
+            },
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next",
+
+            },
+
+
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 4,
+            mousewheel: false,
+            keyboard: false,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+
+        var swiper3 = new Swiper(".mySwiper3", {
+            spaceBetween: 0,
+            loop: true,
+            slidesPerView: 1,
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: true,
+              },
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next1",
+                prevEl: ".swiper-button-prev1",
+            },
+        });
+        $(function(){
+            $('.stop').click(function(){
+                $('.stop').addClass('start')
+                if($(this).hasClass('start')==true){
+                    swiper3.autoplay.stop()
+                }
+                else{
+                    swiper3.autoplay.start()
+                }
+            })
+            $('.start').click(function(){
+                $('.start').removeClass('start')
+                if($(this).hasClass('start')==true){
+                    swiper3.autoplay.stop()
+                }
+                else{
+                    swiper3.autoplay.start()
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

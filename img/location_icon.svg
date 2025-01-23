@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53.823" height="49.324" viewBox="0 0 53.823 49.324">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="패스_25227" data-name="패스 25227" d="M14.565,5.106a17.481,17.481,0,0,0-.044,24.648l5.01,5.871H14.238a1.567,1.567,0,0,0-1,.363L.563,46.557a1.565,1.565,0,0,0,1,2.767H52.258a1.565,1.565,0,0,0,1-2.767L40.587,35.988a1.565,1.565,0,0,0-2,2.4l9.356,7.8H5.885l8.921-7.439h8.118a1.565,1.565,0,0,0,1.19-2.581l-7.252-8.5c-.027-.031-.055-.062-.084-.091a14.331,14.331,0,1,1,20.267,0L25.8,38.826a1.565,1.565,0,0,0,2.214,2.213L39.258,29.8A17.461,17.461,0,0,0,14.565,5.106" transform="translate(0)" fill="#999"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="패스_25228" data-name="패스 25228" d="M45.308,32.164a5.673,5.673,0,1,1,4.007,1.657,5.629,5.629,0,0,1-4.007-1.657M43.095,21.938a8.8,8.8,0,0,0,12.439,12.44h0a8.8,8.8,0,1,0-12.44-12.44" transform="translate(-40.518 -19.361)" fill="#999"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="패스_25229" data-name="패스 25229" d="M76.941,80.137a1.5,1.5,0,1,0,1.5-1.5,1.5,1.5,0,0,0-1.5,1.5" transform="translate(-76.941 -78.633)" fill="#999"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_35621" data-name="그룹 35621" transform="translate(0.001)">
+    <g id="그룹_35616" data-name="그룹 35616" transform="translate(-0.001 0)">
+      <g id="그룹_35615" data-name="그룹 35615" clip-path="url(#clip-path)">
+        <rect id="사각형_9311" data-name="사각형 9311" width="54.084" height="49.324" transform="translate(-0.131 0)" fill="#999"/>
+      </g>
+    </g>
+    <g id="그룹_35618" data-name="그룹 35618" transform="translate(18.115 8.656)">
+      <g id="그룹_35617" data-name="그룹 35617" clip-path="url(#clip-path-2)">
+        <rect id="사각형_9312" data-name="사각형 9312" width="18.446" height="17.589" transform="translate(0 0)" fill="#999"/>
+      </g>
+    </g>
+    <g id="그룹_35620" data-name="그룹 35620" transform="translate(34.399 35.155)">
+      <g id="그룹_35619" data-name="그룹 35619" clip-path="url(#clip-path-3)">
+        <rect id="사각형_9313" data-name="사각형 9313" width="3.008" height="3.008" transform="translate(0 0)" fill="#999"/>
+      </g>
+    </g>
+  </g>
+</svg>
