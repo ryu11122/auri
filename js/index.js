@@ -13,6 +13,27 @@ $(function () {
     $('.footer>.footer-top>div>button').click(function () {
         $('.footer>.footer-top>div>ul , .footer>.footer-top>div>button').toggleClass('on')
     })
+$(".ttt1").mouseenter(function(){
+   $(".tttt1").attr({src:"img/t1.png"});
+})
+$(".ttt1").mouseleave(function(){
+   $(".tttt1").attr({src:"img/tt1.png"});
+})
+$(".ttt2").mouseenter(function(){
+   $(".tttt2").attr({src:"img/t2.png"});
+})
+$(".ttt2").mouseleave(function(){
+   $(".tttt2").attr({src:"img/tt2.png"});
+})
+$(".ttt3").mouseenter(function(){
+   $(".tttt3").attr({src:"img/t3.png"});
+})
+$(".ttt3").mouseleave(function(){
+   $(".tttt3").attr({src:"img/tt3.png"});
+})
+
+
+
 $(".test").mouseenter(function(){
    $(".test2").attr({src:"img/navertvlogo.png"});
 })

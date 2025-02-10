@@ -455,9 +455,10 @@ header {
     display: inline-block;
     width: 5rem;
     height: 5rem;
-    background-color: #fff;
+    background: #fff url('../img/ttt.png')no-repeat center center /11px 17px;
     border-radius: 100%;
     color: #000;
+    filter: saturate(0);
     text-align: center;
     font-size: 3rem;
     border: none;
@@ -465,7 +466,7 @@ header {
 }
 
 .swip-con>button:hover {
-    color: #D90915;
+    filter: saturate(100%);
 }
 
 .swip-con>.swiper-button-next {
@@ -473,7 +474,8 @@ header {
     display: inline-block;
     width: 5rem;
     height: 5rem;
-    background-color: #fff;
+    background: #fff url('../img/ttt2.png')no-repeat center center /11px 17px;
+    filter: saturate(0);
     border-radius: 100%;
     color: #000;
     text-align: center;
@@ -481,12 +483,7 @@ header {
     border: none;
 }
 
-.xi-angle-left-min {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
+
 
 .xi-angle-right-min {
     display: flex;
@@ -992,32 +989,35 @@ a.on>.icon {
     width: 5rem;
     height: 5rem;
     margin-left: -13rem;
-    background-color: #fff;
+    background: #fff url('../img/ttt.png')no-repeat center center /11px 17px;
     border-radius: 100%;
     color: #000;
     text-align: center;
     font-size: 3rem;
     border: 1px solid #ddd;
     font-weight: 900;
+    filter: saturate(0);
 }
 
 .con-box>.swiper-button-next {
-
+    filter: saturate(0);
     display: inline-block;
     width: 5rem;
     height: 5rem;
     margin-left: 1rem;
-    background-color: #fff;
+    background: #fff url('../img/ttt2.png')no-repeat center center /11px 17px;
     border-radius: 100%;
     color: inherit;
     text-align: center;
     font-size: 3rem;
     border: 1px solid #ddd;
 }
-
+.swiper-pagination.ww{
+color: white;
+}
 
 .con-box>div:hover {
-    color: #D90915;
+    filter: saturate(100%);
 }
 
 
@@ -1233,7 +1233,7 @@ bottom: 1.3rem;
 }
 .main5-btnbox>.swiper-button-prev1{
     cursor: pointer;
-    margin-right: 3rem;
+    margin-right: 4.8rem;
     font-size: 2rem;
 }
 .main5-btnbox>.swiper-button-next1{
@@ -1247,11 +1247,18 @@ bottom: 1.3rem;
     bottom: 1.3rem;
 }
 .main5-stpa{
+    width: 4.5rem;
     right: 4.5rem;
     bottom: 1.5rem;
 }
 .start,.stop{
     cursor: pointer;
+}
+.ww>img:nth-child(1){
+margin-left: 1.2rem;}
+.ww>img{
+width: 25%;
+display: inline-block;
 }
 
 
@@ -1349,8 +1356,11 @@ footer {
 }
 
 .footer>.footer-top>ul>li>a {
-    color: #D90915;
     font-weight: 500;
+}
+
+.footer ul>li>a>img{
+ transition: all 3s;
 }
 
 .footer>.footer-top>ul>li+li>a {
@@ -1492,16 +1502,7 @@ footer {
     color: #C9C9C9;
     transition: all 0.5s ease;
 }
-.footer>.footer-bottom>div>ul>li:nth-child(1)>a:hover{
-    background: linear-gradient(180deg, #4D59C4, #E0436E);
-    color: #fff;
-}
-.footer>.footer-bottom>div>ul>li:nth-child(2)>a:hover{
-    background-color: #4867AA;
-    color: #fff;
-}
-.footer>.footer-bottom>div>ul>li:nth-child(3)>a:hover{
-    background-color: #F10300;
-    color: #fff;
-}
 
+.popl{
+filter:brightness(4500%)
+}
